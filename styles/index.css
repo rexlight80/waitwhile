@@ -8,4 +8,11 @@ body {
 
 .join_section {
   background: url("../assets/images/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
 }
