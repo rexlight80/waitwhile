@@ -20,6 +20,17 @@ body {
 .automation_section {
   background: url("../assets/images/Automation.png");
   background-repeat: no-repeat;
-  background-size: 100% calc(100% - 33rem);
+  background-size: contain;
   background-position: bottom;
+}
+
+@media screen and (min-width: 1024px) {
+  .automation_section {
+    background: url("../assets/images/Automation.png");
+    background-repeat: no-repeat;
+
+    background-position: bottom;
+
+    background-size: 100% calc(100% - 33rem);
+  }
 }
