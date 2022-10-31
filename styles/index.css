@@ -16,3 +16,10 @@ body {
   max-width: 1400px;
   margin: auto;
 }
+
+.automation_section {
+  background: url("../assets/images/Automation.png");
+  background-repeat: no-repeat;
+  background-size: 100% calc(100% - 33rem);
+  background-position: bottom;
+}

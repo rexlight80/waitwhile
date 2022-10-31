@@ -14,8 +14,9 @@
   <body>
     <div class="w-screen  h-screen overflow-x-hidden ">
       <header
-        class="w-full flex items-center justify-between h-[88px] lg:px-[100px] px-4 border-b border-gray-200"
+        class="w-full  h-[88px] lg:px-[100px] px-4 border-b border-gray-200"
       >
+      <div class="container flex items-center justify-between h-full">
         <img src="../assets/images/worthWhileLogo.png" class="w-[100] lg:w-[168]"/>
         <ul class="list-none flex  items-center gap-8 h-full">
           <li
@@ -55,10 +56,13 @@
           </button>
           <img src='../assets/images/hamburgerOption.svg' class="hover:opacity-75 cursor-pointer lg:hidden block"/>
         </ul>
+        </div>
+
         
       </header>
       
-      <section class="lg:w-[65%] w-full mx-auto flex flex-col items-start gap-[48px] lg:pt-40 lg:pb-40 pt-12 pb-[90px] px-4 lg:px-0">
+      <section class="container  lg:pt-40 lg:pb-40 pt-12 pb-[90px] px-4 lg:px-0">
+        <div class="mx-auto flex flex-col items-start gap-[48px] lg:w-[75%] w-full">
         <span
           class="font-bold lg:text-[144px] md:text-[100px] text-[56px] text-[#252525] leading-none tracking-tighter"
           >Wait in line without the wait</span
@@ -70,6 +74,7 @@
           >That’s an incredible amount of human potential to<br class="lg:inline hidden" />
           unlock — and Waitwhile is the key.
         </span>
+        </div>
       </section>
       <section class="container flex lg:flex-row flex-col items-center lg:gap-0 gap-10 justify-between lg:px-[100px] px-4">
         <div class="lg:w-1/2 w-full">
@@ -129,7 +134,7 @@
       </section>
       <section class=" container flex lg:flex-row flex-col items-center lg:gap-0 gap-10 justify-between lg:px-[100px] px-4">
         <div class="lg:w-1/2 w-full">
-          <img src="../assets/images/image_3.jpg" class="mx-auto lg:pr-12 pr-0" />
+          <img src="../assets/images/image_3.jpg" class="mx-auto lg:pr-14 pr-0" />
         </div>
 
         <div class="flex flex-col items-start lg:w-1/2 w-full gap-6 ">
@@ -159,14 +164,14 @@
         </div>
       </section>
       <section
-        class="w-full flex flex-col bg-[#FFC864] items-center gap-12 lg:my-40 my-[90px] pt-20"
+        class="w-full flex flex-col bg-[#FFC864] items-center automation_section lg:h-[946px] h-[565px] gap-8 lg:my-40 my-[90px] pt-12"
       >
         <div class="flex items-center gap-2">
           <img src="../assets/images/AutomationIcon.svg" />
           <span class="text-sm font-normal text-[#252525]">Automation</span>
         </div>
         <span
-          class="font-bold lg:text-[72px] text-[65px] leading-none tracking-tight text-center"
+          class="font-bold lg:text-[72px] text-[55px] leading-none tracking-tight text-center"
           >Automate your <br class="lg:inline hidden" />customer workflows
         </span>
         <span
@@ -174,10 +179,10 @@
           >Waitwhile makes it possible to automate how you <br class="lg:inline hidden" />manage your
           operations to save you time and money.</span
         >
-        <button class="bg-black h-12 w-[126px] rounded-full hover:opacity-80">
+        <button class="bg-black h-12 w-[126px] rounded-full hover:opacity-80 lg:block hidden">
           <span class="text-sm text-white font-bold">Read More</span>
         </button>
-        <img src="../assets/images/Automation.png" />
+       
       </section>
       <section class="container flex lg:flex-row flex-col items-center lg:gap-0 gap-10 lg:px-[100px] px-4">
         <div class="flex flex-col items-start lg:w-1/2 w-full gap-6 lg:pl-24 lg:order-first order-last">
@@ -256,8 +261,9 @@
         >
       </section>
       <footer
-        class="w-full bg-[#000000] min-h-[560px] lg:px-[100px] px-4 lg:py-[90px] py-10 flex flex-col "
+        class="w-full bg-[#000000] min-h-[560px] lg:px-[100px] px-4 lg:py-[90px] py-10  "
       >
+      <div class="container flex flex-col h-full">
         <div class="w-full flex lg:flex-row flex-col items-center h-full ">
           <div class="lg:w-1/3 w-full flex flex-col h-full lg:mb-auto mb-10 ">
             <span class="text-white font-bold xl:text-2xl text-xl">Drop us a line </span>
@@ -332,6 +338,8 @@
 
 
         </div>
+        </div>
+
       </footer>
     </div>
   </body>
